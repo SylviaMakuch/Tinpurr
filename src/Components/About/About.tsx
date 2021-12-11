@@ -5,9 +5,8 @@ import AboutCard from "./AboutCard";
 
 const AboutCardsContainer = styled.div`
     display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
  `
 
  export default function About() {

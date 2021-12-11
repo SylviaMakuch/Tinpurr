@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import checkmark from "./../mediacheckmark.png";
-import paw from "./../media/paw.png";
+import checkmark from "./../media/checkmark.png";
+import paw from "./../media/paws.png"
 import like from "./../media/like.png";
 
 export const aboutData = [

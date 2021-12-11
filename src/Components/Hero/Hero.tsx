@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import phone from "./media/phone.svg";
+import phone from "./../media/phone.svg";
 
 const BackGround = styled.div`
     background-color: #F35D6F;
@@ -8,9 +8,11 @@ const BackGround = styled.div`
     align-items: center;
     justify-content: center;
 `
+
 const MobileImg = styled.img`
     
 `
+
 const Slogan = styled.div`
     color: white;
     font-family: 'Work Sans', sans-serif;
