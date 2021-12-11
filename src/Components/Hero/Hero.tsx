@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import phone from "./../media/phone.svg";
 import button, { Button } from "@material-ui/core";
+import NavBar from "../About/NavBar/NavBar";
   
 
 const BackGround = styled.div`
@@ -28,12 +29,15 @@ export default function Hero() {
     return (
         <BackGround>
             <MobileImg src={phone} />
+            <div>
+            <NavBar />
             <Slogan> Share Tuna with a Kitty Nearby!
             <Button 
             variant="contained" 
             color="primary">Download
             </Button>
             </Slogan>
+            </div>
         </BackGround>
     )
 };
