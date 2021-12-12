@@ -4,7 +4,7 @@ import tobi from "./../media/tobi.jpg";
 import girly from "./../media/girly.jpeg"
 import loveshades from "./../media/loveshades.jpg";
 
-export const aboutData = [
+export const carouselData = [
     {
         image: tobi,
         title: "I no longer have to howl at the moon to call for my lady !!",

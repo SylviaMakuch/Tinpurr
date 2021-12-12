@@ -21,7 +21,6 @@ const Slogan = styled.div`
     font-size: 70px;
     font-weight: 800;
 `
- d
 
 export default function Hero() {
     return (
