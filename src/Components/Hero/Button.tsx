@@ -12,7 +12,6 @@ const useStyles = makeStyles({
         height: 48,
         width: 150,
         padding: '0 30px',
-        fontSize: 10,
     },
 });
 

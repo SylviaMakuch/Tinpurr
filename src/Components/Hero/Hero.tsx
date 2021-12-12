@@ -32,7 +32,6 @@ export default function Hero() {
             <div>
                 <NavBar />
                 <Slogan> Share Tuna with a Kitty Nearby!
-             
                    <Btn></Btn>
                 </Slogan>
             </div>
