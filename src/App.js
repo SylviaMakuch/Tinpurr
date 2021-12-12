@@ -10,7 +10,6 @@ function App() {
       <Hero />
       <About />
       <CarouselContainer />
-
     </div>
   );
 }

@@ -7,8 +7,8 @@ const Container = styled.div`
 
 const Img = styled.img`
     border-radius: 50%;
-    height: 10vh;
-    width: 10vh;
+    height: 8vh;
+    width: 8vh;
 `
 
 const Title = styled.div`
@@ -21,9 +21,9 @@ const Title = styled.div`
 
 const Text = styled.div`
     color: #000000;
-
     font-size: 30px;
-    font-family: 'Work Sans', italic;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
 `
 
 interface CarouselCardProperties {
