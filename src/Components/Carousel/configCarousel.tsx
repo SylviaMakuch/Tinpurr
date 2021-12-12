@@ -1,24 +1,24 @@
 import React from "react";
 import styled from "styled-components";
-import checkmark from "./../media/checkmark.png";
-import paw from "./../media/paws.png"
-import like from "./../media/like.png";
+import tobi from "./../media/tobi.jpg";
+import girly from "./../media/girly.jpeg"
+import loveshades from "./../media/loveshades.jpg";
 
 export const aboutData = [
     {
-        image: checkmark,
-        title: "Easy to Use",
-        text: "So Easy Your Kitty Can Use it!",
+        image: tobi,
+        title: "I no longer have to howl at the moon to call for my lady !!",
+        text: "Tobi ~ Vancouver, Canada",
 
     },
     {
-        image: paw,
-        title:"Esquiste Clientelle",
-        text:"Kissable Kitties All Over!",
+        image: girly,
+        title:"With Enrico going on dates, we have more time to ourselves!",
+        text:" Gina ~ Rome, Italy",
     
     },
-    {   image: like,
-        title:"Guarentee to Work",
-        text:"Find a Kitty Mate, or Money Back Gaurntee ",
+    {   image: loveshades,
+        title:"I now have my Love Shades on.",
+        text:" Princess ~ Georgia, USA",
     },
 ];
