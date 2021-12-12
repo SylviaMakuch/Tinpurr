@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import phone from "./../media/phone.svg";
-import button, { Button } from "@material-ui/core";
 import NavBar from "../About/NavBar/NavBar";
-  
+import Btn from "./Button";
+
 
 const BackGround = styled.div`
     background-color: #F35D6F;
@@ -23,6 +23,13 @@ const Slogan = styled.div`
     font-weight: 800;
 `
 
+const Btn = styled.button`
+    background: 'linear-gradient(45deg, #fd9963 30%, #fd9963 90%)'; 
+    border-radius: 25%;
+    box-shadow: '0 3px 5px 2px #fffefe36';
+    height: 50px;
+    width: 150px;
+`
 
 
 export default function Hero() {
@@ -30,13 +37,10 @@ export default function Hero() {
         <BackGround>
             <MobileImg src={phone} />
             <div>
-            <NavBar />
-            <Slogan> Share Tuna with a Kitty Nearby!
-            <Button 
-            variant="contained" 
-            color="primary">Download
-            </Button>
-            </Slogan>
+                <NavBar />
+                <Slogan> Share Tuna with a Kitty Nearby!
+                   <Btn />
+                </Slogan>
             </div>
         </BackGround>
     )
