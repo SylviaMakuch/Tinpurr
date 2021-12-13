@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
 import CarouselContainer from "./Components/Carousel/CarouselContainer";
-import SimpleSlider from "./Components/Carousel/Slider";
+
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Hero />
       <About />
       <CarouselContainer />
-      <SimpleSlider />
+      {/* <SimpleSlider /> */}
     </div>
   );
 }
