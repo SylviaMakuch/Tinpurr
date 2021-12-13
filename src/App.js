@@ -1,10 +1,7 @@
 import React from "react";
 import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
-import Testimonials from "./Components/Carousel/Testimontials";
-
-
-
+import Testimonials from "./Components/Testimonials/Testimontials";
 
 function App() {
   return (
@@ -15,5 +12,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
