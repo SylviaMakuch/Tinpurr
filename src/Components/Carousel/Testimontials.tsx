@@ -6,7 +6,11 @@ import loveshades from "./../media/loveshades.jpg";
 
 
 const Container = styled.div`
-    display: block;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 40px auto;
+   max-width: 700px;
 `
 
 const Img = styled.img`
@@ -31,6 +35,25 @@ const Text = styled.div`
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
+`
+
+const Span = styled.span`
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:before{
+        content: "";
+        height: 6px;
+        width: 6px;
+        background-color: #d4d4d4;
+  }
+     &:hover{
+        background-color: #45454d;
+  }
+
 `
 
 interface CarouselCardProperties {
@@ -61,8 +84,13 @@ export default function Testimonials() {
     };
 
     const [current, setCurrent] = useState(carouselData[0])
+
     const [active, setActive] = useState(0)
-    console.log(current)
+
+    const handhleSetClick = (event) => {
+        setCurrent(Testimonials[event.target.getAttribute("data-Testimonials")])
+        setActive(event.target.getAttribute("data-carouselData"))
+    }
     return (
         <Container>
             <Img src={current.image} />
@@ -70,9 +98,10 @@ export default function Testimonials() {
             <Text>{current.text}</Text>
             <div>
                 {Object.keys(carouselData).map(index => (
-                    <span
+                    <Span
                         onClick={event => handhleSetClick(event)}
-
+                        data-Testimonials={index}
+                        key={index} />
                 ))}
             </div>
         </Container>
