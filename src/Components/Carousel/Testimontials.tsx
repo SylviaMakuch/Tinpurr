@@ -87,10 +87,12 @@ export default function Testimonials() {
 
     const [active, setActive] = useState(0)
 
-    const handhleSetClick = (event) => {
-        setCurrent(Testimonials[event.target.getAttribute("data-Testimonials")])
-        setActive(event.target.getAttribute("data-carouselData"))
-    }
+    const handleSetClick = (event:any) => {
+
+        setCurrent(carouselData[event.target.getAttribute("data-Testimonials")])
+        setActive(event.target.getAttribute("data-Testimonials"))
+
+    };
     return (
         <Container>
             <Img src={current.image} />
@@ -99,7 +101,7 @@ export default function Testimonials() {
             <div>
                 {Object.keys(carouselData).map(index => (
                     <Span
-                        onClick={event => handhleSetClick(event)}
+                        onClick={(event:any) => handleSetClick(event)}
                         data-Testimonials={index}
                         key={index} />
                 ))}
