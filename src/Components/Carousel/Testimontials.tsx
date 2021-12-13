@@ -68,6 +68,9 @@ export default function Testimonials() {
             <Img src={current.image} />
             <Title>{current.title}</Title>
             <Text>{current.text}</Text>
+            <div>
+                {Object.keys(carouselData)}
+            </div>
         </Container>
     )
 }
