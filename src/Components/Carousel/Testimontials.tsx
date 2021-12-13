@@ -40,35 +40,40 @@ const Text = styled.div`
 const Span = styled.span`
     height: 20px;
     width: 20px;
+    margin: 0 px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     cursor: pointer;
     &:before{
         content: "";
         height: 6px;
         width: 6px;
         background-color: #d4d4d4;
+        transition: background-color 0.3s ease;
   }
      &:hover{
-        background-color: #45454d;
+        background-color: #d6d6e05f;
   }
 
 `
 
-interface CarouselCardProperties {
+interface CarouselCard {
     image: string;
     title: string;
     text: string;
 }
 
+interface CarouselCardProperties extends Record<number, CarouselCard> {
+
+}
+
 export default function Testimonials() {
-    const carouselData = {
+    const carouselData: CarouselCardProperties = {
         0: {
             image: tobi,
             title: "I no longer have to howl at the moon to call for my lady !!",
-            text: "Tobi ~ Vancouver, Canada",
-
+            text: "Tobi ~ Vancouver, Canada"
         },
         1: {
             image: girly,
@@ -88,10 +93,8 @@ export default function Testimonials() {
     const [active, setActive] = useState(0)
 
     const handleSetClick = (event:any) => {
-
-        setCurrent(carouselData[event.target.getAttribute("data-Testimonials")])
-        setActive(event.target.getAttribute("data-Testimonials"))
-
+        setActive(event.target.getAttribute("data-Testimonials"));
+        setCurrent(carouselData[event.target.getAttribute("data-Testimonials")]);
     };
     return (
         <Container>
@@ -103,7 +106,8 @@ export default function Testimonials() {
                     <Span
                         onClick={(event:any) => handleSetClick(event)}
                         data-Testimonials={index}
-                        key={index} />
+                        key={index} 
+                    />
                 ))}
             </div>
         </Container>
