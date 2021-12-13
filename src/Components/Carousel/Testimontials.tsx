@@ -69,7 +69,11 @@ export default function Testimonials() {
             <Title>{current.title}</Title>
             <Text>{current.text}</Text>
             <div>
-                {Object.keys(carouselData)}
+                {Object.keys(carouselData).map(index => (
+                    <span
+                        onClick={event => handhleSetClick(event)}
+
+                ))}
             </div>
         </Container>
     )
