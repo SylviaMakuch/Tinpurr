@@ -5,13 +5,13 @@ import Testimonials from "./Components/Carousel/Testimontials";
 
 
 
+
 function App() {
   return (
     <div>
       <Hero />
       <About />
       <Testimonials />
-      {/* <SimpleSlider /> */}
     </div>
   );
 }
