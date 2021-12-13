@@ -18,7 +18,7 @@ export const carouselData = [
     
     },
     {   image: loveshades,
-        title:"I no longer have to worry about staying clean, I kitties licking me every night.  I have Love Shades on.",
+        title:"I no longer have to worry about staying clean, I kitties licking me every night. I have Love Shades on.",
         text:" Princess ~ Georgia, USA",
     },
 ];
