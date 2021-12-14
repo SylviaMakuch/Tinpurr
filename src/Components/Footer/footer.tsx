@@ -19,7 +19,7 @@ const Text = styled.div`
     font-weight: 300;
 `
 const Img = styled.img`
-    width: 30%;
+    width: 20%;
 `   
 
 export default function Footer() {
