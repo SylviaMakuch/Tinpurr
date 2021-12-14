@@ -16,15 +16,15 @@ export const pricingData = [
     {
         image: tier2,
         title:"$19.99/month",
-        text:"Unlimited Matches",
+        text1:"Unlimited Matches",
         text2: "Unlimited Messages",
         text3: "Unlimited App Usage",
     },
     {   image: tier3,
         title:"$250/annually",
-        text:"Priority Listing",
+        text1:"Priority Listing",
         text2: "Unlimited Matches",
         text3: "Unlimited Messages",
-        text4: "Unlimited App Usage",
+    
     },
 ];

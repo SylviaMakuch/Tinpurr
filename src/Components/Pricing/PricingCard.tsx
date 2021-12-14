@@ -2,17 +2,22 @@ import React from "react";
 import styled from "styled-components";
 
 const CardContainer = styled.div`
-    height: 250px;
-    max-width: 400px;
+    height: 40vh;
+    width: 40vh;
     margin: 20px;
-    display: grid;
-    align-content: flex-start;
-    justify-items: center; 
+    padding: 5vh 0vh 5vh 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    line-height: 2.5;
     background-color: #F9ECEC;
+    border-radius: 15px;
+    box-shadow: 3px 10px #00000025;
 `;
 
 const Icon = styled.img`
-    height: 150px;
+    height: 10vh;
 `;
 
 const Title = styled.h2`
@@ -34,9 +39,8 @@ interface AboutCardProperties {
     text1: string;
     text2: string;
     text3: string;
-    text4: string;
 }
-export default function PricingCard({image, title, text1, text2, text3, text4 }: AboutCardProperties) {
+export default function PricingCard({image, title, text1, text2, text3 }: AboutCardProperties) {
     return(
         <CardContainer>
             <Icon src={image} />
@@ -44,7 +48,6 @@ export default function PricingCard({image, title, text1, text2, text3, text4 }:
             <Text>{text1}</Text>
             <Text>{text2}</Text>
             <Text>{text3}</Text>
-            <Text>{text4}</Text>
         </CardContainer>
     );
 };

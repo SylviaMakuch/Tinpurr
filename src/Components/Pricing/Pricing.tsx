@@ -13,8 +13,8 @@ const PricingContainer = styled.div`
      return (
          <PricingContainer>
              {
-                 pricingData.map(({ image, title, text1, text2, text3, text4}, index)=>{
-                     return <PricingCard image={image} title={title} text1={text1} text2={text2} text3={text3} text4={text4}/>
+                 pricingData.map(({ image, title, text1, text2, text3}, index)=>{
+                     return <PricingCard image={image} title={title} text1={text1} text2={text2} text3={text3}/>
                  })
              }
          </PricingContainer>

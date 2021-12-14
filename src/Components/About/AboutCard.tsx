@@ -5,9 +5,10 @@ const CardContainer = styled.div`
     height: 250px;
     max-width: 400px;
     margin: 20px;
-    display: grid;
-    align-content: flex-start;
-    justify-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
 `;
 
 const Icon = styled.img`
