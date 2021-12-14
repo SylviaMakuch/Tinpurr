@@ -1,18 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import walkingcat2 from "./../media/walkingcat2.gif"
+import scooter from "./../media/scooter.gif";
 
 const Container = styled.div`
     display: flex;
-    margin-top: 10vh;
-    margin-bottom: 10vh;  
-    position: relative;
-    justify-content: center;
 `
 
 const Img = styled.img`
-    width: 100%;
-    height: 100vh;
+    width: 50%;
 `   
 const Slogan = styled.div`
     color: #ff1d56;
@@ -24,9 +19,10 @@ const Slogan = styled.div`
     left: 40%;
 `
 
-export default function Banner() {
+export default function Promo() {
     return (
        <Container>
+            <Img src={walkingcat2} />
             <Img src={walkingcat2} />
             <Slogan> Walk with Love &#10084;	</Slogan>
        </Container>
