@@ -12,7 +12,7 @@ const Container = styled.div`
 
 const Img = styled.img`
     width: 100%;
-    height: 120vh;
+    height: 90vh;
 `   
 const Slogan = styled.div`
     color: #ff2424;

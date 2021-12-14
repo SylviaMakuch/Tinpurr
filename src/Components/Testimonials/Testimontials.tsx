@@ -11,6 +11,9 @@ const Container = styled.div`
    align-items: center;
    margin: 40px auto;
    max-width: 700px;
+   height: 80vh;
+   justify-content: center;
+   line-height: 2;
 `
 
 const Img = styled.img`
@@ -28,7 +31,7 @@ const Title = styled.div`
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    margin: 2vh;
+    margin: 4vh;
 `
 
 const Text = styled.div`
