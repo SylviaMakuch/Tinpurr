@@ -5,8 +5,7 @@ import hooters from "./../media/hooters.png";
 import cat from "./../media/cat.png";
 import purrom from "./../media/purrom.png";
 const Container = styled.div`
-    display: block;
-    background-color: #F88290;
+    background-color: #f17d6e;
     display: flex;
     justify-content: space-evenly;
  `
