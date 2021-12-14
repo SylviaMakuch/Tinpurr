@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const CardContainer = styled.div`
     height: 250px;
-    max-width: 500px;
+    max-width: 400px;
     margin: 20px;
     display: grid;
     align-content: flex-start;
