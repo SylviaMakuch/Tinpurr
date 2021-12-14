@@ -17,8 +17,8 @@ const Img = styled.img`
     border-radius: 50%;
     padding: 10px;
     border: 4px solid linear-gradient(45deg,#FE6B8B 30%, #FF8E53 90%);
-    height: 15vh;
-    width: 15vh;
+    height: 30vh;
+    width: 30vh;
     background:linear-gradient(45deg,#FE6B8B 30%, #FF8E53 90%); 
 `
 
@@ -27,7 +27,8 @@ const Title = styled.div`
     text-align: center;
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+    margin: 5vh;
 `
 
 const Text = styled.div`
@@ -45,6 +46,7 @@ const Span = styled.span`
     align-items: center;
     justify-content:center;
     cursor: pointer;
+    float: right;
     &:before{
         content: "";
         height: 6px;
