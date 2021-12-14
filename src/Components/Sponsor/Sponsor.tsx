@@ -7,7 +7,9 @@ import purrom from "./../media/purrom.png";
 const Container = styled.div`
     background-color: #f17d6e;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
+    height: 40vh;
  `
 
 const Img = styled.img`

@@ -13,15 +13,15 @@ const CardContainer = styled.div`
     line-height: 2.5;
     background-color: #F9ECEC;
     border-radius: 15px;
-    box-shadow: 3px 10px #00000025;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 `;
 
 const Icon = styled.img`
-    height: 10vh;
+    height: 15vh;
 `;
 
 const Title = styled.h2`
-    color: #000000;
+    color: #b56969;
     text-align: center;
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
@@ -30,7 +30,7 @@ const Title = styled.h2`
 const Text = styled.div`
     color: #000000;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Work Sans', sans-serif;
 `
 interface AboutCardProperties {

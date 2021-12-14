@@ -16,7 +16,7 @@ const Icon = styled.img`
 `;
 
 const Title = styled.h2`
-    color: #000000;
+    color: #252424;
     text-align: center;
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;

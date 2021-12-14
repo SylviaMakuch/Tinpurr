@@ -8,7 +8,7 @@ const PricingContainer = styled.div`
     justify-content: space-around;
     margin: 20vh;
  `
-
+ 
  export default function Pricing() {
      return (
          <PricingContainer>

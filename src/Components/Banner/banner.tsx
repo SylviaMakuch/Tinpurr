@@ -15,13 +15,13 @@ const Img = styled.img`
     height: 90vh;
 `   
 const Slogan = styled.div`
-    color: #ff2424;
+    color: #ff1d56;
     font-family: 'Work Sans', sans-serif;
     font-size: 70px;
     font-weight: 800;
     position: absolute;
     top: 20%;
-    left: 38%;
+    left: 35%;
 `
 
 export default function Banner() {
