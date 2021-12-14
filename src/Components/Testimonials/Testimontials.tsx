@@ -28,7 +28,7 @@ const Title = styled.div`
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    margin: 5vh;
+    margin: 2vh;
 `
 
 const Text = styled.div`
@@ -36,19 +36,23 @@ const Text = styled.div`
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
+    margin: 2vh;
+    
 `
 
 const Span = styled.span`
-    height: 20px;
-    width: 20px;
-    margin: 0 px;
+    height: 30px;
+    width: 30px;
+    margin: 2vh;
     display: flex;
     align-items: center;
     justify-content:center;
     cursor: pointer;
     float: right;
+    border-radius: 50%;
     &:before{
         content: "";
+        border-radius: 50%;
         height: 6px;
         width: 6px;
         background-color: #d4d4d4;
@@ -56,6 +60,7 @@ const Span = styled.span`
   }
      &:hover{
         background-color: #d6d6e05f;
+        border-radius: 50%;
   }
 
 `
@@ -85,7 +90,7 @@ export default function Testimonials() {
         },
         2: {
             image: loveshades,
-            title: "I no longer have to worry about staying clean, I kitties licking me every night.  I have Love Shades on.",
+            title: "I no longer have to worry about staying clean, I have kitties licking me every night.  I have Love Shades on.",
             text: " Princess ~ Georgia, USA",
         },
     };

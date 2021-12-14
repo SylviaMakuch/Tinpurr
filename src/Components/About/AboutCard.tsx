@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const CardContainer = styled.div`
-    height: 550px;
+    height: 250px;
     max-width: 500px;
     margin: 20px;
     display: grid;

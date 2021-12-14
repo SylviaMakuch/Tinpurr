@@ -6,9 +6,9 @@ import cat from "./../media/cat.png";
 import purrom from "./../media/purrom.png";
 const Container = styled.div`
     display: block;
-    background-color: #f37b5d; 
+    background-color: #ff3355c5;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
  `
 
 const Img = styled.img`
