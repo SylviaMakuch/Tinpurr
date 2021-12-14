@@ -28,9 +28,9 @@ const Img = styled.img`
 const Title = styled.div`
     color: #000000;
     text-align: center;
-    font-size: 30px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Fuzzy Bubbles';
+    font-weight: 550;
     margin: 4vh;
 `
 
@@ -38,7 +38,7 @@ const Text = styled.div`
     color: #000000;
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     margin: 2vh;
     
 `
@@ -67,11 +67,11 @@ const Span = styled.span`
   }
 
 `
-
 interface CarouselCard {
     image: string;
     title: string;
     text: string;
+    name: string;
 }
 
 interface CarouselCardProperties extends Record<number, CarouselCard> {
@@ -82,19 +82,22 @@ export default function Testimonials() {
     const carouselData: CarouselCardProperties = {
         0: {
             image: tobi,
-            title: "I no longer have to howl at the moon to call for my lady !!",
-            text: "Tobi ~ Vancouver, Canada"
+            title: '"I no longer have to howl at the moon to call for my lady !!"',
+            name:"Tobi ",
+            text: "📍 - Vancouver, Canada",
         },
         1: {
             image: girly,
-            title: "With Enrico going on dates, we have more time to ourselves!",
-            text: " Gina ~ Rome, Italy",
+            title: '"With Enrico going on dates, we have more time to ourselves!"',
+            name:"Gina",
+            text: " 📍 - Rome, Italy",
 
         },
         2: {
             image: loveshades,
-            title: "I no longer have to worry about staying clean, I have kitties licking me every night.  I have Love Shades on.",
-            text: " Princess ~ Georgia, USA",
+            title: '"I no longer have to worry about staying clean, I have kitties licking me every night.  I have Love Shades on."',
+            name:" Princess ",
+            text: " 📍 - Georgia, USA",
         },
     };
 
@@ -110,6 +113,7 @@ export default function Testimonials() {
         <Container>
             <Img src={current.image} />
             <Title>{current.title}</Title>
+            <Text>{current.name}</Text>
             <Text>{current.text}</Text>
             <div>
                 {Object.keys(carouselData).map(index => (

@@ -14,7 +14,7 @@ const Container = styled.div`
 
 const Img = styled.img`
     margin: 4vh;
-    height: 15vh;
+    height: 10vh;
     width: 20vh;
     opacity: 0.7;
 `
