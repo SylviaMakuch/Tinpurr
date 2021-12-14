@@ -28,7 +28,6 @@ const Text = styled.div`
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
 `
-
 interface AboutCardProperties {
     image: string;
     title: string;
