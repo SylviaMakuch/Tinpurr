@@ -9,16 +9,21 @@ const NavbarContainer = styled.div`
 
 const Text= styled.div`
     display: flex;
+    padding: 3vh;
     align-items: center;
-    font-family: Poppins, Open Sans;
-    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    font-size: 28px;
     color: white;
+    font-weight: 100;
 `;
 
 export default function NavBar() {
     return(
         <NavbarContainer>
-            <Text> CONTACT PRICING DOWNLOAD</Text>
+            <Text> ABOUT</Text> 
+            <Text> PRICING</Text>
+            <Text> CATNIP</Text>
+            <Text> CONTACT</Text>
         </NavbarContainer>
 
     )
