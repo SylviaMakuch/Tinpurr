@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const NavbarContainer = styled.div`
     display: flex;
@@ -7,7 +8,7 @@ const NavbarContainer = styled.div`
     justify-content: flex-end;
 `;
 
-const Text= styled.div`
+const Text = styled.div`
     display: flex;
     padding: 3vh;
     align-items: center;
@@ -18,12 +19,12 @@ const Text= styled.div`
 `;
 
 export default function NavBar() {
-    return(
+    return (
         <NavbarContainer>
-            <Text> ABOUT</Text> 
-            <Text> PRICING</Text>
-            <Text> CATNIP</Text>
-            <Text> CONTACT</Text>
+            <Link to="/about"><Text> ABOUT</Text> </Link>
+            <Link to="/pricing"><Text> PRICING</Text></Link>
+            <Link to="/catNip"><Text> CATNIP</Text> </Link>
+            <Link to="/footer"><Text> CONTACT</Text></Link>
         </NavbarContainer>
 
     )
