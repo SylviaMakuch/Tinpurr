@@ -27,6 +27,14 @@ const Slogan = styled.div`
     text-align: center;
 `;
 
+const Text = styled.div`
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+`;
+
 export default function Promo() {
     return (
         <div>
