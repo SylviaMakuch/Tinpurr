@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import catnipp from "./../media/catnip.svg";
 import arrow from "./../media/arrow.svg";
+import { useState } from "react";
 
 
 const Container = styled.div`
@@ -34,6 +35,7 @@ const Text = styled.div`
 `;
 
 export default function CatNip() {
+    const [ScrolledToElement, ScrolledToElement] =useState('')
     return (
         <Container>
             <Img src={arrow} />
