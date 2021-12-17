@@ -1,30 +1,47 @@
 import React from "react";
 import styled from "styled-components";
 import scooter from "./../media/scooter.gif";
+import tindermatch from "./../media/tindermatch.svg";
 
 const Container = styled.div`
     display: flex;
+    margin: 15vh;
 `
 
 const Img = styled.img`
     width: 50%;
-`   
+`
+const Img2 = styled.img`
+    width: 50%;
+    position: absolute;
+    right: 1%;
+    height: 60%;
+`
 const Slogan = styled.div`
-    color: #ff1d56;
+    color: #000000;
     font-family: 'Work Sans', sans-serif;
     font-size: 70px;
     font-weight: 800;
-    position: absolute;
-    top: 20%;
-    left: 40%;
+    text-align: center;
+`
+const Text = styled.div`
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+
 `
 
 export default function Promo() {
     return (
-       <Container>
-            <Img src={walkingcat2} />
-            <Img src={walkingcat2} />
-            <Slogan> Walk with Love &#10084;	</Slogan>
-       </Container>
+        <div>
+            <Slogan> We believe every Kitty deserves Love.</Slogan>
+            <Container>
+                <Img src={scooter} />
+                <Img2 src={tindermatch} />
+            </Container>
+
+        </div>
     )
 }

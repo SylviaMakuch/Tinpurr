@@ -106,7 +106,7 @@ export default function Testimonials() {
     const [active, setActive] = useState(0)
 
     const handleSetClick = (event:any) => {
-        setActive(event.target.getAttribute("data-Testimonials"));
+        setActive(event.target.getAttribute(handleSetClick));
         setCurrent(carouselData[event.target.getAttribute("data-Testimonials")]);
     };
     return (
