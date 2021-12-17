@@ -19,13 +19,13 @@ function App() {
           <Route path="/" element={<NavBar />} />
           <Route path="/hero" element={<Hero />} />
           <Route path="/about" element={<About />} />
-          <Banner />
-          <Testimonials />
-          <Sponsor />
+          <Route path="/banner" element={<Banner />} />
+          <Route path="/Testimonials" element={<Testimonials />} />
+          <Route path="/Sponsor" element={<Sponsor />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Promo />
-          <Route path="/catNip" element={<CatNip />} />
-          <Footer path="/footer"/>
+          <Route path="/Promo" element={<Promo />} />
+          <Route path="/catnip" element={<CatNip />} />
+          <Route path="/footer" element={<Footer />} />
         </Routes>
       </BrowserRouter>
     </div>

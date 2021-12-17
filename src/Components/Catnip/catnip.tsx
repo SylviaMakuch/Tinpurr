@@ -35,7 +35,6 @@ const Text = styled.div`
 `;
 
 export default function CatNip() {
-    const [ScrolledToElement, ScrolledToElement] =useState('')
     return (
         <Container>
             <Img src={arrow} />
