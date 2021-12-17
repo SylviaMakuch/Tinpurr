@@ -9,20 +9,25 @@ import Pricing from "./Components/Pricing/Pricing";
 import Promo from "./Components/Promo/promo";
 import NavBar from "./Components/NavBar/NavBar";
 import CatNip from "./Components/Catnip/catnip";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Hero />
-      <About />
-      <Banner />
-      <Testimonials />
-      <Sponsor />
-      <Pricing />
-      <Promo />
-      <CatNip />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<NavBar />} />
+          <Route path="/hero" element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/banner" element={<Banner />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/sponsor" element={<Sponsor />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/promo" element={<Promo />} />
+          <Route path="/catNip" element={<CatNip />} />
+          <Route path="/footer" element={<Footer />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
