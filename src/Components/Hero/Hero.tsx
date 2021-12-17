@@ -7,13 +7,13 @@ import tinpurrlogo from "./../media/tinpurrlogo.svg"
 const BackGround = styled.div`
     background-color: #F35D6F;
     display: flex;
-`
+`;
 
 const MobileImg = styled.img`
     width: 50%;
     align-items: center;
     justify-content: center;
-`
+`;
 
 const RightDiv =styled.div`
     display: flex;
@@ -27,7 +27,8 @@ const Slogan = styled.div`
     font-family: 'Work Sans', sans-serif;
     font-size: 70px;
     font-weight: 800;
-`
+`;
+
 const BrandLogo = styled.img`
     width: 50%;
     margin-bottom: 15vh;

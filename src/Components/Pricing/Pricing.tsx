@@ -7,13 +7,14 @@ const PricingContainer = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 15vh;
- `
+ `;
+
  const Slogan = styled.div`
     color: #000000;
     font-family: 'Work Sans', sans-serif;
     font-size: 70px;
     font-weight: 800;
- `
+ `;
  
  export default function Pricing() {
      return (

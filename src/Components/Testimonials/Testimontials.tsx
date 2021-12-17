@@ -14,7 +14,7 @@ const Container = styled.div`
    height: 80vh;
    justify-content: center;
    line-height: 2;
-`
+`;
 
 const Img = styled.img`
     border-radius: 50%;
@@ -23,7 +23,7 @@ const Img = styled.img`
     height: 30vh;
     width: 30vh;
     background:linear-gradient(45deg,#FE6B8B 30%, #FF8E53 90%); 
-`
+`;
 
 const Title = styled.div`
     color: #000000;
@@ -32,7 +32,7 @@ const Title = styled.div`
     font-family: 'Fuzzy Bubbles';
     font-weight: 550;
     margin: 4vh;
-`
+`;
 
 const Text = styled.div`
     color: #000000;
@@ -40,8 +40,8 @@ const Text = styled.div`
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     margin: 2vh;
-    
-`
+
+`;
 
 const Span = styled.span`
     height: 30px;
@@ -66,17 +66,17 @@ const Span = styled.span`
         border-radius: 50%;
   }
 
-`
+`;
 interface CarouselCard {
     image: string;
     title: string;
     text: string;
     name: string;
-}
+};
 
 interface CarouselCardProperties extends Record<number, CarouselCard> {
 
-}
+};
 
 export default function Testimonials() {
     const carouselData: CarouselCardProperties = {

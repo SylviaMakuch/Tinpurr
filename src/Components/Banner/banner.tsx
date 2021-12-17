@@ -8,12 +8,13 @@ const Container = styled.div`
     margin-bottom: 10vh;  
     position: relative;
     justify-content: center;
-`
+`;
 
 const Img = styled.img`
     width: 100%;
     height: 100vh;
-`   
+`;
+
 const Slogan = styled.div`
     color: #ff1d56;
     font-family: 'Work Sans', sans-serif;
@@ -22,7 +23,7 @@ const Slogan = styled.div`
     position: absolute;
     top: 20%;
     left: 40%;
-`
+`;
 
 export default function Banner() {
     return (
@@ -31,4 +32,4 @@ export default function Banner() {
             <Slogan> Walk with Love &#10084;	</Slogan>
        </Container>
     )
-}
+};

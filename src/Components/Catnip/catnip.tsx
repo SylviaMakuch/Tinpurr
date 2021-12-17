@@ -9,7 +9,8 @@ const Container = styled.div`
     margin: 15vh;
     flex-direction: column;
     align-items: center;
-`
+`;
+
 const Img = styled.img`
     width: 5%;
     position: absolute;

@@ -7,7 +7,7 @@ const AboutCardsContainer = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 20vh;
- `
+ `;
 
  export default function About() {
      return (

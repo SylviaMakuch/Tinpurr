@@ -32,14 +32,15 @@ const Text = styled.div`
     text-align: center;
     font-size: 25px;
     font-family: 'Work Sans', sans-serif;
-`
+`;
 interface AboutCardProperties {
     image: string;
     title: string;
     text1: string;
     text2: string;
     text3: string;
-}
+};
+
 export default function PricingCard({image, title, text1, text2, text3 }: AboutCardProperties) {
     return(
         <CardContainer>

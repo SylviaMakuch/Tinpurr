@@ -5,7 +5,7 @@ const NavbarContainer = styled.div`
     display: flex;
     background-color: #F35D6F;
     justify-content: flex-end;
-`
+`;
 
 const Text= styled.div`
     display: flex;
@@ -13,7 +13,7 @@ const Text= styled.div`
     font-family: Poppins, Open Sans;
     font-size: 25px;
     color: white;
-`
+`;
 
 export default function NavBar() {
     return(
