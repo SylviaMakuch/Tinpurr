@@ -30,7 +30,7 @@ const Img2 = styled.img`
 
 const Title = styled.h2`
     color: #252424;
-    font-size: 2vh;
+    font-size: 70px;
     font-family: 'Work Sans', sans-serif;
 `;
 
@@ -43,10 +43,11 @@ const Text = styled.div`
 export default function CatNip() {
     return (
         <Container id="catnip">
-            <Img src={arrow} />
+            {/* <Img src={arrow} /> */}
             <Img2 src={catnipp} />
             <Title>Join The CatNipLife</Title>
             <Text>All Natural, from mama’s garden</Text>
+            <Text style={{fontStyle:"italic"}}>Coming soon!</Text>
         </Container>
     )
 };

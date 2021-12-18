@@ -4,10 +4,12 @@ import walkingcat2 from "./../media/walkingcat2.gif"
 
 const Container = styled.div`
     display: flex;
-    margin-top: 10vh;
+   @media (max-width: 1200px) {
     margin-bottom: 10vh;  
     position: relative;
     justify-content: center;
+    @media (max-width: 1200px) {
+        margin: 10vh;
 `;
 
 const Img = styled.img`

@@ -7,7 +7,7 @@ import tinpurrlogo from "./../media/tinpurrlogo.svg"
 const BackGround = styled.div`
     background-color: #F35D6F;
     display: flex;
-`;
+`;  
 
 const MobileImg = styled.img`
     width: 50%;
@@ -19,19 +19,19 @@ const RightDiv =styled.div`
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin-top: 10vh;
-`
+    margin-top: 4vh;
+`;
 
 const Slogan = styled.div`
     color: white;
     font-family: 'Work Sans', sans-serif;
-    font-size: 70px;
-    font-weight: 800;
+    font-size: 5vh;
+    font-weight: 550;
 `;
 
 const BrandLogo = styled.img`
     width: 50%;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
 `;
 
 export default function Hero() {
