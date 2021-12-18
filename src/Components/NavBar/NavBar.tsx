@@ -5,6 +5,9 @@ const NavbarContainer = styled.div`
     display: flex;
     background-color: #F35D6F;
     justify-content: flex-end;
+    @media (max-width: 1200px) {
+        justify-content: space-between;
+    }
 `;
 
 const Text = styled.div`
@@ -16,6 +19,10 @@ const Text = styled.div`
     color: white;
     font-weight: 100;
     cursor: pointer;
+    @media (max-width: 1200px) {
+        justify-content: space-between;
+        font-size: 24px;
+    }
 
     :hover{
         color: pink;

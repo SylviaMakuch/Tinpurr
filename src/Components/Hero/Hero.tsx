@@ -25,8 +25,12 @@ const RightDiv =styled.div`
 const Slogan = styled.div`
     color: white;
     font-family: 'Work Sans', sans-serif;
-    font-size: 5vh;
+    font-size: 7vh;
     font-weight: 550;
+    margin-bottom: 3vh;
+    @media (max-width: 1600px) {
+        font-size: 4vh;
+    }
 `;
 
 const BrandLogo = styled.img`
@@ -41,8 +45,8 @@ export default function Hero() {
             <RightDiv >
                 <BrandLogo src={tinpurrlogo} />
                 <Slogan> Share Tuna with a Kitty Nearby!
-                    <Btn></Btn>
                 </Slogan>
+                <Btn></Btn>
             </RightDiv>
         </BackGround>
     )

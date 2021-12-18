@@ -11,7 +11,7 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     @media (max-width: 1200px) {
-        margin: 5vh;
+        margin: 15vh;
     }
 `;
 

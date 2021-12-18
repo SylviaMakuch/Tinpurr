@@ -28,8 +28,8 @@ export default function Footer() {
     return (
         <BackGround id="contact">
         <Img src={tinpurrlogo} />
-            <Text> By: Sylvia Makuch</Text>
             <Socials />
+            <Text> By: Sylvia Makuch</Text>
         </BackGround>
     )
 };
