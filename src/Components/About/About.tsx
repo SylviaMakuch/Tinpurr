@@ -6,17 +6,22 @@ import AboutCard from "./AboutCard";
 const AboutCardsContainer = styled.div`
     display: flex;
     justify-content: space-around;
-    margin: 20vh;
+    margin: 11vh;
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        align-items: center;
+        margin: 11vh;
+    }
  `;
 
- export default function About() {
-     return (
-         <AboutCardsContainer id="about">
-             {
-                 aboutData.map(({ image, title, text}, index)=>{
-                     return <AboutCard image={image} title={title} text={text} key={index} />
-                 })
-             }
-         </AboutCardsContainer>
-     );
- };
+export default function About() {
+    return (
+        <AboutCardsContainer id="about">
+            {
+                aboutData.map(({ image, title, text }, index) => {
+                    return <AboutCard image={image} title={title} text={text} key={index} />
+                })
+            }
+        </AboutCardsContainer>
+    );
+};

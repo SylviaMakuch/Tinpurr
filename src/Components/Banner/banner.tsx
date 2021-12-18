@@ -13,6 +13,9 @@ const Container = styled.div`
 const Img = styled.img`
     width: 100%;
     height: 100vh;
+    @media (max-width: 1200px) {
+     height: 80vh;
+    }
 `;
 
 const Slogan = styled.div`
@@ -23,13 +26,16 @@ const Slogan = styled.div`
     position: absolute;
     top: 20%;
     left: 40%;
+    @media (max-width: 1200px) {
+        left: 27%;
+    }
 `;
 
 export default function Banner() {
     return (
-       <Container>
+        <Container>
             <Img src={walkingcat2} />
             <Slogan> Walk with Love &#10084;	</Slogan>
-       </Container>
+        </Container>
     )
 };

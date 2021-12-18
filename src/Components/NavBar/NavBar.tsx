@@ -26,9 +26,10 @@ export default function NavBar() {
 
     const setScrolledPage = (id: string) => {
         const element = document.getElementById(id);
-        console.log(element)
         if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
+            element.scrollIntoView({ 
+                behavior: "smooth" 
+            });
         }
     }
 

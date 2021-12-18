@@ -4,11 +4,14 @@ import styled from "styled-components";
 const CardContainer = styled.div`
     height: 250px;
     max-width: 400px;
-    margin: 20px;
+    margin: 11vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
+    @media (max-width: 1200px) {
+        margin: 8vh;
+    }
 `;
 
 const Icon = styled.img`
