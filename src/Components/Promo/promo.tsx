@@ -25,7 +25,7 @@ const Img2 = styled.img`
     right: 1%;
     height: 60%;
     @media (max-width: 1200px) {
-        width: 50vh;
+        width: 60vh;
         position: relative;
         margin-top: 10vh;
     }

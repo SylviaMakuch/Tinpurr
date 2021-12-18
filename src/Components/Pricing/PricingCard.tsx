@@ -26,13 +26,13 @@ const Icon = styled.img`
 const Title = styled.h2`
     color: #b56969;
     text-align: center;
-    font-size: 2vh;
+    font-size: 30px;
     font-family: 'Work Sans', sans-serif;
 `;
 
 const Text = styled.div`
     color: rgba(0, 0, 0, 0.333)00;
-    font-size: 1.5vh;
+    font-size: 25px;
     font-family: 'Work Sans', sans-serif;
 `;
 interface AboutCardProperties {

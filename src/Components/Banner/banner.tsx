@@ -8,7 +8,7 @@ const Container = styled.div`
     position: relative;
     justify-content: center;
     @media (max-width: 800px) {
-        margin: 10vh;
+        margin-bottom: 20vh;
 `;
 
 const Img = styled.img`
@@ -29,6 +29,7 @@ const Slogan = styled.div`
     left: 40%;
     @media (max-width: 1200px) {
         left: 27%;
+        font-size: 0px;
     }
 `;
 

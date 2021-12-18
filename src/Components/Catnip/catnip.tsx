@@ -32,6 +32,7 @@ const Title = styled.h2`
     color: #252424;
     font-size: 70px;
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
 `;
 
 const Text = styled.div`

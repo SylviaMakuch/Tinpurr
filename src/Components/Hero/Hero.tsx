@@ -7,6 +7,7 @@ import tinpurrlogo from "./../media/tinpurrlogo.svg"
 const BackGround = styled.div`
     background-color: #F35D6F;
     display: flex;
+    height: 60vh;
 `;  
 
 const MobileImg = styled.img`
@@ -20,6 +21,10 @@ const RightDiv =styled.div`
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 4vh;
+    @media (max-width: 1200px) {
+        font-size: 2.5vh;
+        justify-content: center;
+    }
 `;
 
 const Slogan = styled.div`
@@ -31,10 +36,13 @@ const Slogan = styled.div`
     @media (max-width: 1600px) {
         font-size: 4vh;
     }
+    @media (max-width: 800px) {
+        font-size: 2.5vh;
+    }
 `;
 
 const BrandLogo = styled.img`
-    width: 50%;
+    width: 75%;
     margin-bottom: 5vh;
 `;
 

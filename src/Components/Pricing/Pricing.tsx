@@ -11,6 +11,10 @@ const PricingContainer = styled.div`
         flex-wrap: wrap;
         margin: 8vh;
 }
+@media (max-width: 800px) {
+        flex-wrap: wrap;
+        margin: 5vh;
+}
  `;
 
  const Slogan = styled.div`

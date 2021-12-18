@@ -9,14 +9,10 @@ const useStyles = makeStyles({
         borderRadius: 3,
         boxShadow: '0 3px 5px 2px #fffefe36',
         color: 'white',
-        height: 48,
+        height: 38,
         width: 150,
         padding: '0 30px',
-        margin: '30',
-        "@media (min-width: 800px)": {
-            height: 40,
-            width: 110,
-        }
+        margin: '100px',
     },
 });
 

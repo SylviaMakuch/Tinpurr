@@ -17,21 +17,21 @@ const CardContainer = styled.div`
 const Icon = styled.img`
     height: 150px;
     @media (max-width: 800px) {
-        height: 220px
+        height: 180px
     }
 `;
 
 const Title = styled.h2`
     color: #252424;
     text-align: center;
-    font-size: 2vh;
+    font-size: 30px;
     font-family: 'Work Sans', sans-serif;
 `;
 
 const Text = styled.div`
     color: #000000;
     text-align: center;
-    font-size: 1.5vh;
+    font-size: 25px;
     font-family: 'Work Sans', sans-serif;
 `;
 
