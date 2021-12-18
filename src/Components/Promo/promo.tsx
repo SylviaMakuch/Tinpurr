@@ -6,10 +6,17 @@ import tindermatch from "./../media/tindermatch.svg";
 const Container = styled.div`
     display: flex;
     margin: 15vh;
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 const Img = styled.img`
     width: 50%;
+    @media (max-width: 1200px) {
+        width: 50vh;
+    }
 `;
 
 const Img2 = styled.img`
@@ -17,6 +24,11 @@ const Img2 = styled.img`
     position: absolute;
     right: 1%;
     height: 60%;
+    @media (max-width: 1200px) {
+        width: 50vh;
+        position: relative;
+        margin-top: 10vh;
+    }
 `;
 
 const Slogan = styled.div`

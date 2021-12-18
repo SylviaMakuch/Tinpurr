@@ -10,6 +10,9 @@ const Container = styled.div`
     margin: 15vh;
     flex-direction: column;
     align-items: center;
+    @media (max-width: 1200px) {
+        margin: 5vh;
+    }
 `;
 
 const Img = styled.img`
@@ -20,11 +23,14 @@ const Img = styled.img`
 
 const Img2 = styled.img`
     width: 50%;
+    @media (max-width: 1200px) {
+        width: 50vh;
+    }
 `;
 
 const Title = styled.h2`
     color: #252424;
-    font-size: 30px;
+    font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
 `;
 

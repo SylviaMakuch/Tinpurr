@@ -16,6 +16,7 @@ const CardContainer = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     @media (max-width: 1200px) {
         margin: 5vh 15vh 5vh 15vh;
+    }
 `;
 
 const Icon = styled.img`
