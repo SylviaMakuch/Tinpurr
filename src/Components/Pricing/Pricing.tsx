@@ -22,7 +22,7 @@ const PricingContainer = styled.div`
             <Slogan> Affordable plans for every cat’s needs! </Slogan>
              {
                  pricingData.map(({ image, title, text1, text2, text3}, index)=>{
-                     return <PricingCard image={image} title={title} text1={text1} text2={text2} text3={text3}/>
+                     return <PricingCard image={image} title={title} text1={text1} text2={text2} text3={text3} key={index} />
                  })
              }
          </PricingContainer>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 const NavbarContainer = styled.div`
@@ -15,40 +15,31 @@ const Text = styled.div`
     font-size: 28px;
     color: white;
     font-weight: 100;
+    cursor: pointer;
+
+    :hover{
+        color: pink;
+    }
 `;
 
 export default function NavBar() {
-    const SectionScroll = (page) => {
-        switch (page) {
-            case 'about': {
-                let location = document.getElementById('about');
-                break;
-            }
-            case 'pricing': {
-                let location = document.getElementById('pricing');
-                break;
-            }
-            case 'catnip': {
-                let location = document.getElementById('catnip');
-                break;
-            }
-            case 'contact': {
-                let location = document.getElementById('contact');
-                break;
-            }
-            default: {
-                break;
-            }
 
+    const setScrolledPage = (id: string) => {
+        const element = document.getElementById(id);
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
         }
     }
+
+    const [scrollPage, setScrollPage] = useState(false);
+
     return (
         <NavbarContainer>
-            <Text> ABOUT</Text>
-            <Text> PRICING</Text>
-            <Text> CATNIP</Text>
-            <Text> CONTACT</Text>
+            <Text onClick={() => setScrolledPage("about")}> ABOUT</Text>
+            <Text onClick={() => setScrolledPage("pricing")}> PRICING</Text>
+            <Text onClick={() => setScrolledPage("catnip")}> CATNIP</Text>
+            <Text onClick={() => setScrolledPage("contact")}> CONTACT</Text>
         </NavbarContainer>
-
     )
 };

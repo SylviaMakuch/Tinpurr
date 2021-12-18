@@ -34,17 +34,16 @@ const SocialsIcons = styled.img`
     }
 `
 
- const Socials = () => {
+const Socials = () => {
     return (
         <SocialsGrid>
             {socialIcons.map((value, index) => {
-                return(
+                return (
                     <a href={value.url} target="blank" key={index}>
-                    <SocialsIcons src={value.icon} />
+                        <SocialsIcons src={value.icon} />
                     </a>
                 )
-                })}
-        
+            })}
         </SocialsGrid>
     );
 };

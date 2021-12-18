@@ -82,20 +82,20 @@ export default function Testimonials() {
         0: {
             image: tobi,
             title: '"I no longer have to howl at the moon to call for my lady !!"',
-            name:"Tobi ",
+            name: "Tobi ",
             text: "📍 - Vancouver, Canada",
         },
         1: {
             image: girly,
             title: '"With Enrico going on dates, we have more time to ourselves!"',
-            name:"Gina",
+            name: "Gina",
             text: " 📍 - Rome, Italy",
 
         },
         2: {
             image: loveshades,
             title: '"I no longer have to worry about staying clean, I have kitties licking me every night.  I have Love Shades on."',
-            name:" Princess ",
+            name: " Princess ",
             text: " 📍 - Georgia, USA",
         },
     };
@@ -104,7 +104,7 @@ export default function Testimonials() {
 
     const [active, setActive] = useState(0)
 
-    const handleSetClick = (event:any) => {
+    const handleSetClick = (event: any) => {
         setActive(event.target.getAttribute(handleSetClick));
         setCurrent(carouselData[event.target.getAttribute("data-Testimonials")]);
     };
@@ -117,9 +117,8 @@ export default function Testimonials() {
             <div>
                 {Object.keys(carouselData).map(index => (
                     <Span
-                        onClick={(event:any) => handleSetClick(event)}
-                        data-Testimonials={index}
-                        key={index} 
+                        onClick={(event: any) => handleSetClick(event)}
+                        key={index}
                     />
                 ))}
             </div>
