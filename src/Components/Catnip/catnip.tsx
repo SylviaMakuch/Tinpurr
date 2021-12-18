@@ -38,7 +38,7 @@ const Title = styled.h2`
 const Text = styled.div`
     color: #000000;
     font-size: 30px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work  Sans', sans-serif;
 `;
 
 export default function CatNip() {
