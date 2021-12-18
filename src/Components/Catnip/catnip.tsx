@@ -36,7 +36,7 @@ const Text = styled.div`
 
 export default function CatNip() {
     return (
-        <Container>
+        <Container id="catnip">
             <Img src={arrow} />
             <Img2 src={catnipp} />
             <Title>Join The CatNipLife</Title>

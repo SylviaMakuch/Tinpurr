@@ -11,7 +11,7 @@ const AboutCardsContainer = styled.div`
 
  export default function About() {
      return (
-         <AboutCardsContainer>
+         <AboutCardsContainer id="about">
              {
                  aboutData.map(({ image, title, text}, index)=>{
                      return <AboutCard image={image} title={title} text={text} />

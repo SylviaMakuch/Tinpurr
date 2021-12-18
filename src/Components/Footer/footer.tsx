@@ -26,7 +26,7 @@ const Img = styled.img`
 
 export default function Footer() {
     return (
-        <BackGround>
+        <BackGround id="contact">
         <Img src={tinpurrlogo} />
             <Text> By: Sylvia Makuch</Text>
             <Socials />

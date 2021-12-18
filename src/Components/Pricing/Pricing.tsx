@@ -18,7 +18,7 @@ const PricingContainer = styled.div`
  
  export default function Pricing() {
      return (
-         <PricingContainer>
+         <PricingContainer id="pricing">
             <Slogan> Affordable plans for every cat’s needs! </Slogan>
              {
                  pricingData.map(({ image, title, text1, text2, text3}, index)=>{

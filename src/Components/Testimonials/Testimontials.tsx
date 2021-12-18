@@ -75,7 +75,6 @@ interface CarouselCard {
 };
 
 interface CarouselCardProperties extends Record<number, CarouselCard> {
-
 };
 
 export default function Testimonials() {
