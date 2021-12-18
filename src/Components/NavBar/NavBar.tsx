@@ -18,6 +18,12 @@ const Text= styled.div`
 `;
 
 export default function NavBar() {
+    const SectionScroll = (page) => {
+        switch(page) {
+            case 'about':
+                let location = document.getElementById('about')
+        } 
+    }
     return(
         <NavbarContainer>
             <Text> ABOUT</Text> 
