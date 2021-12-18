@@ -10,32 +10,36 @@ const PricingContainer = styled.div`
     @media (max-width: 1200px) {
         flex-wrap: wrap;
         margin: 8vh;
-}
-@media (max-width: 800px) {
+    }
+    @media (max-width: 800px) {
         flex-wrap: wrap;
         margin: 5vh;
-}
+    }
  `;
 
- const Slogan = styled.div`
+const Slogan = styled.div`
     color: #000000;
     font-family: 'Work Sans', sans-serif;
     font-size: 70px;
     font-weight: 800;
+    margin: 5vh;
     @media (max-width: 1200px) {
         text-align: center;
-}
+    }
+    @media (max-width: 600px) {
+        font-size: 40px;
+    }
  `;
- 
- export default function Pricing() {
-     return (
-         <PricingContainer id="pricing">
+
+export default function Pricing() {
+    return (
+        <PricingContainer id="pricing">
             <Slogan> Affordable plans for every cat’s needs! </Slogan>
-             {
-                 pricingData.map(({ image, title, text1, text2, text3}, index)=>{
-                     return <PricingCard image={image} title={title} text1={text1} text2={text2} text3={text3} key={index} />
-                 })
-             }
-         </PricingContainer>
-     );
- };
+            {
+                pricingData.map(({ image, title, text1, text2, text3 }, index) => {
+                    return <PricingCard image={image} title={title} text1={text1} text2={text2} text3={text3} key={index} />
+                })
+            }
+        </PricingContainer>
+    );
+};

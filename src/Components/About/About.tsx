@@ -11,6 +11,11 @@ const AboutCardsContainer = styled.div`
         flex-direction: column;
         align-items: center;
     }
+    @media (max-width: 400px) {
+        flex-direction: column;
+        margin: 5vh;
+    }
+
  `;
 
 export default function About() {

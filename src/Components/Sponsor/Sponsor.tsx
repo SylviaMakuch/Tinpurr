@@ -16,8 +16,10 @@ const Container = styled.div`
         grid-template-columns: 1fr 1fr;
         height: 60vh;
         justify-items: center;
-        width: 100%;
-}
+    }
+    @media (max-width: 1200px) {
+        margin-top: 15vh;
+    }
 `;
 
 const Img = styled.img`

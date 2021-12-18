@@ -30,15 +30,26 @@ const Img2 = styled.img`
 
 const Title = styled.h2`
     color: #252424;
-    font-size: 70px;
     font-family: 'Work Sans', sans-serif;
-    text-align: center;
-`;
+    font-size: 70px;
+    font-weight: 800;
+    margin: 5vh;
+    @media (max-width: 1200px) {
+        text-align: center;
+    }
+    @media (max-width: 600px) {
+        font-size: 40px;
+    }
+ `;
 
 const Text = styled.div`
     color: #000000;
     font-size: 30px;
     font-family: 'Work  Sans', sans-serif;
+    @media (max-width: 600px) {
+        font-size: 25px;
+        margin: 10px
+    }
 `;
 
 export default function CatNip() {

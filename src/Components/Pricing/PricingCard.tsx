@@ -17,6 +17,12 @@ const CardContainer = styled.div`
     @media (max-width: 1200px) {
         margin: 5vh 8vh 5vh 8vh;
     }
+    @media (max-width: 400px) {
+        height: 75vh;
+        padding: 5vh;
+        width: 80vh;
+        margin: 2vh;
+    }
 `;
 
 const Icon = styled.img`
@@ -34,6 +40,10 @@ const Text = styled.div`
     color: rgba(0, 0, 0, 0.333)00;
     font-size: 25px;
     font-family: 'Work Sans', sans-serif;
+    @media (max-width: 600px) {
+        font-size: 20px;
+        text-align: center;
+    }
 `;
 interface AboutCardProperties {
     image: string;

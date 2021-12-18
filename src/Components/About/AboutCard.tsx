@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const CardContainer = styled.div`
     height: 250px;
-    max-width: 400px;
     margin: 5vh;
     display: flex;
     flex-direction: column;
@@ -17,7 +16,7 @@ const CardContainer = styled.div`
 const Icon = styled.img`
     height: 150px;
     @media (max-width: 800px) {
-        height: 180px
+        height: 80px
     }
 `;
 

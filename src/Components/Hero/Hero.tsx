@@ -33,10 +33,10 @@ const Slogan = styled.div`
     font-size: 7vh;
     font-weight: 550;
     margin-bottom: 3vh;
-    @media (max-width: 1600px) {
+    @media only screen and (max-width: 1600px) {
         font-size: 4vh;
     }
-    @media (max-width: 800px) {
+    @media only screen and(max-width: 800px) {
         font-size: 2.5vh;
     }
 `;
