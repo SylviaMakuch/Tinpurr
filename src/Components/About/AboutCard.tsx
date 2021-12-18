@@ -4,31 +4,34 @@ import styled from "styled-components";
 const CardContainer = styled.div`
     height: 250px;
     max-width: 400px;
-    margin: 11vh;
+    margin: 5vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center; 
-    @media (max-width: 1200px) {
+    @media (max-width: 900px) {
         margin: 5vh;
     }
 `;
 
 const Icon = styled.img`
     height: 150px;
+    @media (max-width: 800px) {
+        height: 220px
+    }
 `;
 
 const Title = styled.h2`
     color: #252424;
     text-align: center;
-    font-size: 30px;
+    font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
 `;
 
 const Text = styled.div`
     color: #000000;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5vh;
     font-family: 'Work Sans', sans-serif;
 `;
 

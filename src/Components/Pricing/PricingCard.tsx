@@ -5,7 +5,7 @@ const CardContainer = styled.div`
     height: 40vh;
     width: 70vh;
     margin: 20px;
-    padding: 5vh 0vh 5vh 0vh;
+    padding: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,6 +14,8 @@ const CardContainer = styled.div`
     background-color: #F9ECEC;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    @media (max-width: 1200px) {
+        margin: 5vh 15vh 5vh 15vh;
 `;
 
 const Icon = styled.img`
@@ -23,14 +25,13 @@ const Icon = styled.img`
 const Title = styled.h2`
     color: #b56969;
     text-align: center;
-    font-size: 30px;
+    font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
 `;
 
 const Text = styled.div`
-    color: #000000;
-    text-align: center;
-    font-size: 25px;
+    color: rgba(0, 0, 0, 0.333)00;
+    font-size: 1.5vh;
     font-family: 'Work Sans', sans-serif;
 `;
 interface AboutCardProperties {

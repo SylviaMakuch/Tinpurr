@@ -9,6 +9,7 @@ const PricingContainer = styled.div`
     margin: 15vh;
     @media (max-width: 1200px) {
         flex-wrap: wrap;
+        margin: 8vh;
 }
  `;
 
