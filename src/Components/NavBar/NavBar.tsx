@@ -7,7 +7,7 @@ const NavbarContainer = styled.div`
     justify-content: flex-end;
 `;
 
-const Text= styled.div`
+const Text = styled.div`
     display: flex;
     padding: 3vh;
     align-items: center;
@@ -19,14 +19,32 @@ const Text= styled.div`
 
 export default function NavBar() {
     const SectionScroll = (page) => {
-        switch(page) {
-            case 'about':
-                let location = document.getElementById('about')
-        } 
+        switch (page) {
+            case 'about': {
+                let location = document.getElementById('about');
+                break;
+            }
+            case 'pricing': {
+                let location = document.getElementById('pricing');
+                break;
+            }
+            case 'catnip': {
+                let location = document.getElementById('catnip');
+                break;
+            }
+            case 'contact': {
+                let location = document.getElementById('contact');
+                break;
+            }
+            default: {
+                break;
+            }
+
+        }
     }
-    return(
+    return (
         <NavbarContainer>
-            <Text> ABOUT</Text> 
+            <Text> ABOUT</Text>
             <Text> PRICING</Text>
             <Text> CATNIP</Text>
             <Text> CONTACT</Text>
