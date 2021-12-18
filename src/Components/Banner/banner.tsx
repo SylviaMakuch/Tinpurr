@@ -14,7 +14,7 @@ const Img = styled.img`
     width: 100%;
     height: 100vh;
     @media (max-width: 1200px) {
-     height: 80vh;
+     height: 65vh;
     }
 `;
 

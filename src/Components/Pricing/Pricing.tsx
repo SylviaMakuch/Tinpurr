@@ -7,6 +7,9 @@ const PricingContainer = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 15vh;
+    @media (max-width: 1200px) {
+        flex-wrap: wrap;
+}
  `;
 
  const Slogan = styled.div`
@@ -14,6 +17,9 @@ const PricingContainer = styled.div`
     font-family: 'Work Sans', sans-serif;
     font-size: 70px;
     font-weight: 800;
+    @media (max-width: 1200px) {
+        text-align: center;
+}
  `;
  
  export default function Pricing() {

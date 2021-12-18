@@ -6,11 +6,10 @@ import AboutCard from "./AboutCard";
 const AboutCardsContainer = styled.div`
     display: flex;
     justify-content: space-around;
-    margin: 11vh;
+    margin: 5vh;
     @media (max-width: 1200px) {
         flex-direction: column;
         align-items: center;
-        margin: 11vh;
     }
  `;
 

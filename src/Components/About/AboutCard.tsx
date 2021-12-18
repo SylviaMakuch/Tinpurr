@@ -10,7 +10,7 @@ const CardContainer = styled.div`
     justify-content: space-around;
     align-items: center; 
     @media (max-width: 1200px) {
-        margin: 8vh;
+        margin: 5vh;
     }
 `;
 
