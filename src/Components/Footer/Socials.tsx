@@ -25,9 +25,9 @@ const SocialsGrid = styled.div`
     display: flex;
 `
 const SocialsIcons = styled.img` 
-    height: 4vh;
+    height: 50px;
     z-index: 3;
-    padding: 2vh;
+    padding: 30px;
     :hover{ 
         transform: rotateY(360deg);
         transition: .5s;
