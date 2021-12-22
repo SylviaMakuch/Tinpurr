@@ -10,7 +10,7 @@ const BackGround = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 50vh;
+    height: 800px;
 `;
 
 const Text = styled.div`
@@ -21,7 +21,7 @@ const Text = styled.div`
 `;
 
 const Img = styled.img`
-    width: 20%;
+    width: 180px;
 ` ;  
 
 export default function Footer() {
