@@ -47,7 +47,7 @@ const Text = styled.div`
     color: #000000;
     font-size: 30px;
     font-family: 'Work  Sans', sans-serif;
-    align-items: center;
+    text-align: center;
     @media (max-width: 600px) {
         font-size: 25px;
         margin: 10px

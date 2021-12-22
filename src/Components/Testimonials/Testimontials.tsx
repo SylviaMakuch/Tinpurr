@@ -11,7 +11,7 @@ const Container = styled.div`
    align-items: center;
    margin: 40px auto;
    max-width: 700px;
-   height: 1000px
+   height: 900px
    justify-content: center;
    line-height: 2;
 `;

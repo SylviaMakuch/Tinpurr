@@ -9,7 +9,7 @@ const CardContainer = styled.div`
     justify-content: space-evenly;
     align-items: center; 
     @media (max-width: 1600px) {
-        margin: 40px 0px;
+        margin: 60px 0px;
     }
 `;
 

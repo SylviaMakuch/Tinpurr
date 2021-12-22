@@ -5,7 +5,7 @@ import tindermatch from "./../media/tindermatch.svg";
 
 const Container = styled.div`
     display: flex;
-    margin: 10vh;
+    margin: 150px;
     @media (max-width: 1200px) {
         flex-direction: column;
         align-items: center;
@@ -20,14 +20,14 @@ const Img = styled.img`
 `;
 
 const Img2 = styled.img`
-    width: 50%;
+    width: 60%;
     position: absolute;
-    right: 1%;
-    height: 60%;
+    left: 60%;
     @media (max-width: 1200px) {
-        width: 60vh;
+        width: 130%;
+        left: 25%;
         position: relative;
-        margin-top: 10vh;
+        margin-top: 100px;
     }
 `;
 

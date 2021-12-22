@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const CardContainer = styled.div`
-    height: 40vh;
-    width: 70vh;
+    height: 700px;
+    width: 350px;
     margin: 20px;
-    padding: 5vh;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,15 +14,17 @@ const CardContainer = styled.div`
     background-color: #F9ECEC;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    @media (max-width: 1450px) {
+        height: 700px;
+        width: 300px;
+        margin: 20px;
+        padding: 30px;
+    }
     @media (max-width: 1200px) {
-        margin: 5vh 8vh 5vh 8vh;
-    }
-    @media (max-width: 400px) {
-        height: 75vh;
-        padding: 5vh;
-        width: 80vh;
-        margin: 2vh;
-    }
+        height: 700px;
+        width: 400px;
+        margin: 20px;
+        padding: 40px;
 `;
 
 const Icon = styled.img`
@@ -56,7 +58,7 @@ interface AboutCardProperties {
 export default function PricingCard({image, title, text1, text2, text3 }: AboutCardProperties) {
     return(
         <CardContainer>
-            <Icon src={image} />
+            <Icon src={image} /> 
             <Title>{title}</Title>
             <Text>{text1}</Text>
             <Text>{text2}</Text>
