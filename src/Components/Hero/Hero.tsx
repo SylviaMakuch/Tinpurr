@@ -6,49 +6,65 @@ import tinpurrlogo from "./../media/tinpurrlogo.svg"
 
 const BackGround = styled.div`
     background-color: #F35D6F;
-    display: flex;
-    height: 60vh;
-`;  
+    height: 950px;
+    width: 100%;
+`;
+const MainDiv = styled.div`
+    display:flex;
+    @media(max-width: 1100px) {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    @media(max-width: 400px) {
+        margin: 50px;
+    }
+`
 
 const MobileImg = styled.img`
-    width: 50%;
-    align-items: center;
-    justify-content: center;
+    width: 1100px;
+    @media(max-width: 1100px) {
+        width: 550px;
+    }
+    @media(max-width: 600px) {
+        width: 480px;
+    }
 `;
 
-const RightDiv =styled.div`
+const RightDiv = styled.div`
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin-top: 4vh;
-    @media (max-width: 1200px) {
-        font-size: 2.5vh;
-        justify-content: center;
+    margin: 30px;
+    @media (max-width: 1100px) {
+        margin: 10px;
+        align-items: center;
     }
 `;
 
 const Slogan = styled.div`
     color: white;
     font-family: 'Work Sans', sans-serif;
-    font-size: 7vh;
+    font-size: 100px;
     font-weight: 550;
-    margin-bottom: 3vh;
-    @media only screen and (max-width: 1600px) {
-        font-size: 4vh;
+    margin-bottom: 20px;
+    @media (max-width: 1600px) {
+        font-size: 60px;
     }
-    @media only screen and(max-width: 800px) {
-        font-size: 2.5vh;
+    @media(max-width: 1000px) {
+        font-size: 45px;
+        text-align: center;
     }
 `;
 
 const BrandLogo = styled.img`
-    width: 75%;
-    margin-bottom: 5vh;
+    width: 300px;
+    margin: 30px;
 `;
 
 export default function Hero() {
     return (
         <BackGround>
+            <MainDiv>
             <MobileImg src={phone} />
             <RightDiv >
                 <BrandLogo src={tinpurrlogo} />
@@ -56,6 +72,7 @@ export default function Hero() {
                 </Slogan>
                 <Btn></Btn>
             </RightDiv>
+            </MainDiv>
         </BackGround>
     )
 };

@@ -24,7 +24,7 @@ const Img = styled.img`
 const Img2 = styled.img`
     width: 1000px;
     @media (max-width: 1200px) {
-        width: 50vh;
+        width: 500px;
     }
 `;
 
@@ -47,6 +47,7 @@ const Text = styled.div`
     color: #000000;
     font-size: 30px;
     font-family: 'Work  Sans', sans-serif;
+    align-items: center;
     @media (max-width: 600px) {
         font-size: 25px;
         margin: 10px
