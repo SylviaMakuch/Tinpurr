@@ -12,10 +12,6 @@ const PricingContainer = styled.div`
         margin: 50px;
         flex-direction: column;
     }
-    @media (max-width: 800px) {
-        flex-wrap: wrap;
-        margin: 5vh;
-    }
  `;
 
 const Slogan = styled.div`
@@ -37,17 +33,11 @@ const Slogan = styled.div`
 
 const CardContainer = styled.div`
     display: flex;
-    justify-content: space-around;
     @media (max-width: 1200px) {
         flex-wrap: wrap;
-        margin: 50px;
         flex-direction: column;
         justify-content: center;
         align-items: center; 
-}
-    @media (max-width: 800px) {
-        flex-wrap: wrap;
-        margin: 5vh;
 }
 `;
 

@@ -20,15 +20,19 @@ const CardContainer = styled.div`
         margin: 20px;
         padding: 30px;
     }
-    @media (max-width: 1200px) {
+    @media (max-width: 800px) {
         height: 700px;
-        width: 400px;
+        width: 150px;
         margin: 20px;
-        padding: 40px;
+        padding: 10px;
+    }
 `;
 
 const Icon = styled.img`
-    height: 15vh;
+    height: 200px;
+    @media (max-width: 800px) {
+        height: 100px;
+    }
 `;
 
 const Title = styled.h2`
@@ -36,13 +40,16 @@ const Title = styled.h2`
     text-align: center;
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
+    @media (max-width: 800px) {
+        font-size: 20px;
+    }
 `;
 
 const Text = styled.div`
     color: rgba(0, 0, 0, 0.333)00;
     font-size: 25px;
     font-family: 'Work Sans', sans-serif;
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         font-size: 20px;
         text-align: center;
     }
