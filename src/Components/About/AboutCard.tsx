@@ -3,13 +3,13 @@ import styled from "styled-components";
 
 const CardContainer = styled.div`
     height: 250px;
-    margin: 5vh;
+    margin: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center; 
-    @media (max-width: 900px) {
-        margin: 5vh;
+    @media (max-width: 1600px) {
+        margin: 40px;
     }
 `;
 
