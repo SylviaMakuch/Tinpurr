@@ -9,7 +9,7 @@ const PricingContainer = styled.div`
     margin: 80px;
     @media (max-width: 1700px) {
         flex-wrap: wrap;
-        margin: 50px;
+        margin: 0px;
         flex-direction: column;
     }
  `;
@@ -26,8 +26,9 @@ const Slogan = styled.div`
         padding: 20px;
         font-size: 50px;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         font-size: 40px;
+        margin: 40px 0;
     }
  `;
 
@@ -38,6 +39,8 @@ const CardContainer = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center; 
+}
+@media (max-width: 1200px) {
 }
 `;
 
