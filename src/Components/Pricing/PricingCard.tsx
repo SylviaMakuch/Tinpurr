@@ -20,7 +20,7 @@ const CardContainer = styled.div`
         margin: 20px;
         padding: 30px;
     }
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
         height: 700px;
         width: 150px;
         margin: 20px;
