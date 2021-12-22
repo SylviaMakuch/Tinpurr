@@ -7,22 +7,22 @@ import { useState } from "react";
 
 const Container = styled.div`
     display: flex;
-    margin: 15vh;
+    margin: 230px;
     flex-direction: column;
     align-items: center;
     @media (max-width: 1200px) {
-        margin: 15vh;
+        margin: 250px 10px;
     }
 `;
 
 const Img = styled.img`
-    width: 5%;
+    width: 20px;
     position: absolute;
     left: 30%;
 `;
 
 const Img2 = styled.img`
-    width: 50%;
+    width: 1000px;
     @media (max-width: 1200px) {
         width: 50vh;
     }
@@ -33,9 +33,10 @@ const Title = styled.h2`
     font-family: 'Work Sans', sans-serif;
     font-size: 70px;
     font-weight: 800;
-    margin: 5vh;
+    margin: 100px;
     @media (max-width: 1200px) {
         text-align: center;
+        margin: 60px;
     }
     @media (max-width: 600px) {
         font-size: 40px;

@@ -4,11 +4,11 @@ import walkingcat2 from "./../media/walkingcat2.gif"
 
 const Container = styled.div`
     display: flex;
-    margin-bottom: 10vh;  
+    margin-bottom: 175px;  
     position: relative;
     justify-content: center;
     @media (max-width: 800px) {
-        margin-bottom: 20vh;
+        margin-bottom: 150px;
 `;
 
 const Img = styled.img`
@@ -26,9 +26,9 @@ const Slogan = styled.div`
     font-weight: 800;
     position: absolute;
     top: 20%;
-    left: 40%;
+    left:40%;
     @media (max-width: 1200px) {
-        left: 27%;
+        left: 17%;
         font-size: 0px;
     }
 `;
