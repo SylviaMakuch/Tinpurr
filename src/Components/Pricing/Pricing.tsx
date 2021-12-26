@@ -34,13 +34,11 @@ const Slogan = styled.div`
 
 const CardContainer = styled.div`
     display: flex;
-    @media (max-width: 1200px) {
+    @media (max-width: 1500px) {
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center; 
-}
-@media (max-width: 1200px) {
 }
 `;
 

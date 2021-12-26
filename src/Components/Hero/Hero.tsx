@@ -11,22 +11,20 @@ const BackGround = styled.div`
 `;
 const MainDiv = styled.div`
     display:flex;
-    @media(max-width: 1100px) {
+    @media(max-width: 1200px) {
         flex-direction: column-reverse;
         align-items: center;
-    }
-    @media(max-width: 400px) {
-        margin: 50px;
     }
 `
 
 const MobileImg = styled.img`
     width: 1100px;
-    @media(max-width: 1100px) {
-        width: 550px;
+    @media(max-width: 1200px) {
+        width: 600px;
     }
     @media(max-width: 600px) {
         width: 480px;
+        margin: 50px;
     }
 `;
 
@@ -35,7 +33,7 @@ const RightDiv = styled.div`
     justify-content: flex-start;
     flex-direction: column;
     margin: 30px;
-    @media (max-width: 1100px) {
+    @media (max-width: 1200px) {
         margin: 10px;
         align-items: center;
     }

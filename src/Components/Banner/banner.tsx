@@ -13,9 +13,12 @@ const Container = styled.div`
 
 const Img = styled.img`
     width: 100%;
-    height: 100vh;
+    height: 1200px;
     @media (max-width: 1200px) {
-     height: 60vh;
+     height: 850px;
+    }
+    @media (max-width: 800px) {
+        width: 200%;
     }
 `;
 
@@ -25,11 +28,11 @@ const Slogan = styled.div`
     font-size: 70px;
     font-weight: 800;
     position: absolute;
+    text-align: center;
     top: 20%;
-    left:40%;
-    @media (max-width: 1200px) {
-        left: 17%;
-        font-size: 0px;
+    @media (max-width: 1100px) {
+        text-align: center;
+        font-size: 40px;
     }
 `;
 

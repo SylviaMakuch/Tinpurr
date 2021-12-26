@@ -16,13 +16,13 @@ const CardContainer = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     @media (max-width: 1450px) {
         height: 700px;
-        width: 300px;
+        width: 400px;
         margin: 20px;
         padding: 30px;
     }
-    @media (max-width: 1000px) {
-        height: 700px;
-        width: 150px;
+    @media (max-width: 800px) {
+        height: 600px;
+        width: 270px;
         margin: 20px;
         padding: 10px;
     }

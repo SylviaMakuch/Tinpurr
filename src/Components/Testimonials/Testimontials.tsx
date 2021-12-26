@@ -14,6 +14,9 @@ const Container = styled.div`
    height: 900px
    justify-content: center;
    line-height: 2;
+   @media (max-width: 600px) {
+        margin: 120px 60px;
+    }
 `;
 
 const Img = styled.img`
@@ -23,6 +26,9 @@ const Img = styled.img`
     height: 350px;
     width: 350px;
     background:linear-gradient(45deg,#FE6B8B 30%, #FF8E53 90%); 
+    @media(max-width: 800px) {
+        height: 300px;
+        width: 300px;
 `;
 
 const Title = styled.div`
@@ -36,6 +42,10 @@ const Title = styled.div`
         font-size: 35px;
         margin: 30px;
     }
+    @media(max-width: 800px) {
+        font-size: 30px;
+        margin: 20px;
+    }
 `;
 
 const Text = styled.div`
@@ -48,12 +58,16 @@ const Text = styled.div`
         font-size: 25px;
         margin: 15px;
     }
+    @media(max-width: 800px) {
+        font-size: 20px;
+        margin: 15px;
+    }
 `;
 
 const Span = styled.span`
     height: 30px;
     width: 30px;
-    margin: 30px;
+    margin: 20px;
     display: flex;
     align-items: center;
     justify-content:center;

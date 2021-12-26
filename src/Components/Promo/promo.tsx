@@ -6,37 +6,33 @@ import tindermatch from "./../media/tindermatch.svg";
 const Container = styled.div`
     display: flex;
     margin: 150px;
-    @media (max-width: 1200px) {
+    justify-content: space-between;
+    @media (max-width: 1600px) {
         flex-direction: column;
         align-items: center;
     }
 `;
 
 const Img = styled.img`
-    width: 50%;
-    @media (max-width: 1200px) {
-        width: 69vh;
+     width: 800px;
+    @media (max-width: 800px) {
+        width: 400px;
     }
 `;
 
 const Img2 = styled.img`
-    width: 60%;
-    position: absolute;
-    left: 60%;
-    @media (max-width: 1200px) {
-        width: 130%;
-        left: 25%;
-        position: relative;
-        margin-top: 100px;
+    width: 800px;
+    @media (max-width: 600px) {
+        width: 400px;
     }
 `;
 
 const Slogan = styled.div`
     color: #000000;
     font-family: 'Work Sans', sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 800;
-    margin: 5vh;
+    margin: 100px 0 0 0;
     @media (max-width: 1200px) {
         text-align: center;
     }
@@ -44,7 +40,6 @@ const Slogan = styled.div`
         font-size: 40px;
     }
  `;
-
 
 const Text = styled.div`
     color: #000000;

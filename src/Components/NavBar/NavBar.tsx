@@ -5,14 +5,13 @@ const NavbarContainer = styled.div`
     display: flex;
     background-color: #F35D6F;
     justify-content: flex-end;
-    @media (max-width: 1200px) {
-        justify-content: space-between;
-    }
+      @media (max-width: 1500px) {
+
 `;
 
 const Text = styled.div`
     display: flex;
-    padding: 3vh;
+    padding: 15px;
     align-items: center;
     font-family: Poppins, sans-serif;
     font-size: 28px;
@@ -23,7 +22,10 @@ const Text = styled.div`
         justify-content: space-between;
         font-size: 24px;
     }
-
+    @media (max-width: 500px) {
+        justify-content: space-between;
+        font-size: 16px;
+    }
     :hover{
         color: pink;
     }

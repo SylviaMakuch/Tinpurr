@@ -14,9 +14,8 @@ const AboutCardsContainer = styled.div`
         flex-direction: column;
         align-items: center;
     }
-    @media (max-width: 400px) {
-        flex-direction: column;
-        margin: 90px;
+    @media (max-width: 600px) {
+        margin: 120px 60px;
     }
 
  `;
