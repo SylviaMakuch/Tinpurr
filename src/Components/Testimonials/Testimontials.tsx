@@ -36,8 +36,9 @@ const Title = styled.div`
     text-align: center;
     font-size: 40px;
     font-family: 'Fuzzy Bubbles';
-    font-weight: 550;
+    font-weight: 500;
     margin: 60px;
+    font-style: italic;
     @media(max-width: 1100px) {
         font-size: 35px;
         margin: 30px;

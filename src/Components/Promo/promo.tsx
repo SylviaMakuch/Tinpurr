@@ -22,6 +22,7 @@ const Img = styled.img`
 
 const Img2 = styled.img`
     width: 800px;
+    margin: 40px;
     @media (max-width: 600px) {
         width: 400px;
     }
@@ -33,6 +34,7 @@ const Slogan = styled.div`
     font-size: 50px;
     font-weight: 800;
     margin: 100px 0 0 0;
+    padding: 30px;
     @media (max-width: 1200px) {
         text-align: center;
     }

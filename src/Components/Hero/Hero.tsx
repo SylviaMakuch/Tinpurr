@@ -10,7 +10,7 @@ const BackGround = styled.div`
     width: 100%;
 `;
 const MainDiv = styled.div`
-    display:flex;
+    display: flex;
     @media(max-width: 1200px) {
         flex-direction: column-reverse;
         align-items: center;
@@ -18,7 +18,7 @@ const MainDiv = styled.div`
 `
 
 const MobileImg = styled.img`
-    width: 1100px;
+    width: 950px;
     @media(max-width: 1200px) {
         width: 600px;
     }
@@ -63,13 +63,13 @@ export default function Hero() {
     return (
         <BackGround>
             <MainDiv>
-            <MobileImg src={phone} />
-            <RightDiv >
-                <BrandLogo src={tinpurrlogo} />
-                <Slogan> Share Tuna with a Kitty Nearby!
-                </Slogan>
-                <Btn></Btn>
-            </RightDiv>
+                <MobileImg src={phone} />
+                <RightDiv >
+                    <BrandLogo src={tinpurrlogo} />
+                    <Slogan> Share Tuna with a Kitty Nearby!
+                    </Slogan>
+                    <Btn></Btn>
+                </RightDiv>
             </MainDiv>
         </BackGround>
     )
