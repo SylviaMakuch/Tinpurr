@@ -26,30 +26,23 @@ const Img2 = styled.img`
     @media (max-width: 600px) {
         width: 400px;
     }
+    @media (max-width: 1600px) {
+       margin-top: 100px;
+    }
 `;
 
 const Slogan = styled.div`
     color: #000000;
     font-family: 'Work Sans', sans-serif;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 800;
     margin: 100px 0 0 0;
     padding: 30px;
-    @media (max-width: 1200px) {
-        text-align: center;
-    }
-    @media (max-width: 600px) {
+    text-align: center; 
+       @media (max-width: 600px) {
         font-size: 40px;
     }
  `;
-
-const Text = styled.div`
-    color: #000000;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Work Sans', sans-serif;
-    text-align: center;
-`;
 
 export default function Promo() {
     return (

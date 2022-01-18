@@ -7,7 +7,7 @@ const PricingContainer = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 80px;
-    @media (max-width: 1700px) {
+    @media (max-width: 1800px) {
         flex-wrap: wrap;
         margin: 0px;
         flex-direction: column;

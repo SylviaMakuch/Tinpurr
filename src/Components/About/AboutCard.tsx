@@ -4,13 +4,13 @@ import styled from "styled-components";
 const CardContainer = styled.div`
     height: 250px;
     width: 400px;
-    margin: 40px;
+    margin: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center; 
     @media (max-width: 1600px) {
-        margin: 60px 0px;
+        margin: 60px;
     }
 `;
 
