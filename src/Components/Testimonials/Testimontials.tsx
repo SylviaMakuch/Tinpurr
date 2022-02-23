@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import tobi from "./../media/tobi.jpg";
-import girly from "./../media/girly.jpeg"
+import tobi from "./../media/Tobi.jpg";
+import girly from "./../media/girly.jpeg";
 import loveshades from "./../media/loveshades.jpg";
 import "./TestStyles.css";
 
