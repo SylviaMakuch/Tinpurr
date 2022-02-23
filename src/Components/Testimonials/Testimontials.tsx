@@ -19,11 +19,10 @@ export default function Testimonials() {
         <div>
           <img src={tobi} />
           <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
+            <h3>Tobi Keystone</h3>
+            <h4>📍 - Vancouver, Canada</h4>
             <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
+            "I no longer have to howl at the moon to call for my lady !!"
             </p>
           </div>
         </div>
@@ -31,11 +30,10 @@ export default function Testimonials() {
         <div>
           <img src={girly} />
           <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
+            <h3>Gina Pizzololi</h3>
+            <h4>📍 - Rome, Italy</h4>
             <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
+            "With Enrico going on dates, we have more time to ourselves!"
             </p>
           </div>
         </div>
@@ -43,11 +41,10 @@ export default function Testimonials() {
         <div>
           <img src={loveshades} />
           <div className="myCarousel">
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
+            <h3>Princess Sorel</h3>
+            <h4>📍 - Georgia, USA</h4>
             <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
+            "I no longer have to worry about staying clean, I have kitties licking me every night.  I have Love Shades on."
             </p>
           </div>
         </div>

@@ -1,24 +1,27 @@
 .carousel-root {
     width: 64% !important;
     margin: auto !important;
-    margin-top: 3% !important;
+    margin-top: 200px !important;
+    height: 1000px;
   }
   
   .carousel .slide {
     background: #fff !important;
     color: black;
-    height: 100%;
+    height: 800px;
   }
   
   .carousel .slide img {
-    width: 139px !important;
+    margin-top: 100px;
     border-radius: 50%;
+    height: 400px;
+    width: 400px;
   }
   
   .myCarousel {
     background: #fafafa;
-    margin-top: -6%;
-    width: 54%;
+    margin-top: -8%;
+    width: 69%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6%;
@@ -26,7 +29,8 @@
     padding-left: 5%;
     padding-right: 5%;
     border: 1px solid #ddd;
-    height: 286px;
+    height: 276px;
+    margin-bottom: 20px;
   }
   
   .carousel .control-dots {
@@ -39,10 +43,10 @@
     color: #222;
     font-weight: 100;
     letter-spacing: 0.2px;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 27px;
   }
   
   .myCarousel h4 {
@@ -51,14 +55,14 @@
     padding-top: 0;
     font-weight: 500;
     color: #787878;
-    font-size: 14px;
+    font-size: 20px;
   }
   
   .myCarousel p {
     font-weight: 100 !important;
     line-height: 29px !important;
     color: #222;
-    font-size: 15px;
+    font-size: 25px;
     font-family: sans-serif;
     max-height: 67px;
   }
@@ -82,8 +86,9 @@
   
   .carousel .control-dots .dot {
     box-shadow: none !important;
-    background: #454545 !important;
+    background: #ff3c0b !important;
     outline: 0;
+    margin-top: 100px;
   }
   
   .carousel.carousel-slider .control-arrow {
