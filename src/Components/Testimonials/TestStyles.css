@@ -102,11 +102,12 @@
     text-align: center;
   }
   
-  @media only screen and (max-width: 934px) {
+  @media only screen and (max-width: 1200px) {
     .carousel-root {
       outline: 0;
       width: 93% !important;
-      margin: auto !important;
+      height: 800px;
+      margin-top: 100px !important;
     }
   
     .carousel.carousel-slider .control-arrow {
@@ -124,10 +125,5 @@
       padding-right: 5%;
       border: 1px solid #ddd;
       height: 269px;
-    }
-  
-    .carousel .slide img {
-      width: 24% !important;
-      border-radius: 50%;
     }
   }
